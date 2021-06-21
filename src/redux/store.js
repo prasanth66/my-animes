@@ -11,7 +11,7 @@ const sagaMiddleware = createSagaMiddleware();
 
 const store =compose(
   applyMiddleware(sagaMiddleware),
-  window.devToolsExtension && window.devToolsExtension(),
+  // window.devToolsExtension && window.devToolsExtension(),
 )(createStore)(rootReducer);
 
 
