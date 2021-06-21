@@ -1,0 +1,26 @@
+.search_wrapper{
+   background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+   
+}
+
+.search_wrapper .input{
+   padding: 15px 20px;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+   width:50vw;
+}
+
+
+
+.searchbtn{
+    background: whitesmoke;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}

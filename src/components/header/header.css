@@ -1,0 +1,12 @@
+
+.header_wrapper{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+.company_logo{
+    width:6vw;
+}

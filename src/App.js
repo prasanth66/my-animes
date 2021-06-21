@@ -13,7 +13,7 @@ function App() {
           <Route exact path="/">
             <HomePage />
           </Route>
-          <Route exact path="/animeDetails">
+          <Route exact path="/animeDetails" >
              <AnimeDetailsPage />
           </Route>
         </Switch>

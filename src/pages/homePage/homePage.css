@@ -1,0 +1,34 @@
+
+.home_page_body{
+    /* background-color: lightskyblue; */
+    /* margin: 15px; */
+    
+}
+
+.home_wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    margin: 50px;
+    
+}
+.loader{
+   margin-left: 42%;
+}
+
+.home_page_pagination{
+    float: right;
+}
+
+@media screen and (max-width: 480px) {
+    .home_wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px;
+    }
+  }
+
